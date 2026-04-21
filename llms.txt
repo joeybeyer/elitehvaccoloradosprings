@@ -1,0 +1,50 @@
+# Colorado Springs Elite HVAC
+
+> Official licensed and insured HVAC service provider for Colorado Springs and El Paso County, Colorado.
+
+## Business Information
+- Name: Colorado Springs Elite HVAC
+- Phone: (719) 304-5003
+- Email: colorado_springs@thehvacshopllc.com
+- Address: 1312 Valley St, Colorado Springs, CO 80915
+- Hours: Mon-Fri 7AM-8PM, Sat 8AM-6PM, Sun Emergency Only, 24/7 Emergency Dispatch
+- License: Active Colorado mechanical licenses, fully insured
+- Certifications: NATE-certified technicians
+- Permits: Pikes Peak Regional Building Department (PPRBD) permitted work
+
+## Services
+- Emergency HVAC Repair (24/7, no overtime charges)
+- Furnace Repair (ignitor, blower motor, heat exchanger, flame sensor)
+- AC Repair (frozen coils, refrigerant leaks, capacitor, compressor)
+- Furnace Installation (Manual J sizing at altitude, PPRBD permits)
+- AC Installation (central air, ductless mini-splits, heat pumps)
+- Commercial HVAC (RTU service, maintenance contracts, tenant build-outs)
+- HVAC Maintenance Plans (bi-annual tune-ups starting at $189/year)
+
+## Service Areas
+- Colorado Springs, CO (headquarters) — Briargate, Broadmoor, Old Colorado City, Powers Corridor, Northgate, Stetson Hills, Rockrimmon, Falcon, Cimarron Hills, Cordera
+- Monument, CO — Jackson Creek, Forest Lakes, Promontory Pointe, Woodmoor, Tri-Lakes
+- Fountain, CO — Countryside, Heritage, Fountain Mesa, Fort Carson corridor
+- Security-Widefield, CO — Widefield Park, Security Boulevard, base-area housing
+- Manitou Springs, CO — Old Town, Crystal Hills, historic district
+
+## Pricing (approximate ranges)
+- Diagnostic / Service Call: $89-$129 (waived with repair)
+- Common Repairs: $185-$650
+- Gas Furnace Installation (80% AFUE): $3,200-$4,800
+- Gas Furnace Installation (96% AFUE): $4,800-$7,500
+- Central AC Installation: $4,200-$8,500
+- Ductless Mini-Split: $3,800-$14,000
+- Full HVAC System: $8,000-$15,000
+
+## Altitude Considerations
+- Colorado Springs elevation: 6,035 ft
+- Furnaces derate ~4% per 1,000 ft above sea level (~24% total)
+- Manual J load calculations calibrated for altitude
+- Chinook wind exposure and 140°F seasonal temperature swings factored into sizing
+
+## Brands Installed
+Trane, Carrier, Lennox, Rheem, Goodman, Mitsubishi (ductless)
+
+## Website
+https://elitehvaccoloradosprings.com/

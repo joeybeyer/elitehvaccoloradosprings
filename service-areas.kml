@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Colorado Springs Elite HVAC — Service Areas</name>
+    <description>Official HVAC service coverage for Colorado Springs Elite HVAC across El Paso County, Colorado.</description>
+
+    <Style id="hvacPin">
+      <IconStyle>
+        <color>ff00b8ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Placemark>
+      <name>Colorado Springs Elite HVAC — Headquarters</name>
+      <description>1312 Valley St, Colorado Springs, CO 80915. Official 24/7 HVAC service. Call (719) 304-5003.</description>
+      <styleUrl>#hvacPin</styleUrl>
+      <Point>
+        <coordinates>-104.825348,38.8339578,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>HVAC Service — Colorado Springs</name>
+      <description>Full HVAC service coverage for Colorado Springs, CO. Emergency repairs, installations, and maintenance. Neighborhoods: Briargate, Broadmoor, Old Colorado City, Powers Corridor, Northgate, Stetson Hills, Rockrimmon.</description>
+      <styleUrl>#hvacPin</styleUrl>
+      <Point>
+        <coordinates>-104.8214,38.8339,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>HVAC Service — Monument</name>
+      <description>HVAC service coverage for Monument, CO and the Tri-Lakes area. High-altitude furnace installation, propane-to-gas conversions. Neighborhoods: Jackson Creek, Forest Lakes, Promontory Pointe, Woodmoor.</description>
+      <styleUrl>#hvacPin</styleUrl>
+      <Point>
+        <coordinates>-104.8606,39.0916,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>HVAC Service — Fountain</name>
+      <description>HVAC service coverage for Fountain, CO and the Fort Carson corridor. Rental property HVAC, 1970s home retrofits. Neighborhoods: Countryside, Heritage, Fountain Mesa, Fountain Valley.</description>
+      <styleUrl>#hvacPin</styleUrl>
+      <Point>
+        <coordinates>-104.7008,38.6822,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>HVAC Service — Security-Widefield</name>
+      <description>HVAC service coverage for Security-Widefield, CO. Mid-century ranch duct redesign, base-area landlord contracts. Neighborhoods: Widefield Park, Security Boulevard, Pikes Peak Park.</description>
+      <styleUrl>#hvacPin</styleUrl>
+      <Point>
+        <coordinates>-104.7144,38.7439,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>HVAC Service — Manitou Springs</name>
+      <description>HVAC service coverage for Manitou Springs, CO. Historic-home HVAC, ductless mini-splits, preservation-compliant installs. Neighborhoods: Old Town Manitou, Crystal Hills, Iron Springs.</description>
+      <styleUrl>#hvacPin</styleUrl>
+      <Point>
+        <coordinates>-104.9175,38.8586,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
