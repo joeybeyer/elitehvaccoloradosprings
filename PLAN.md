@@ -8,10 +8,10 @@
 | **GBP match** | TBD — no GBP yet (create after site launch) |
 | **Launch cities** | Colorado Springs, Monument, Fountain, Security-Widefield, Manitou Springs |
 | **Stack** | Static HTML on AWS S3 (per Joey's decision) |
-| **Repo** | joeybeyer/coloradosprings-elite-hvac |
+| **Repo** | joeybeyer/elitehvaccoloradosprings |
 | **URL pattern** | /[emq]-[city]/ with trailing slash |
-| **S3 bucket** | coloradosprings-elite-hvac |
-| **Domain** | TBD (currently S3 URL) |
+| **S3 bucket** | elitehvaccoloradosprings.com |
+| **Domain** | elitehvaccoloradosprings.com |
 
 ## Money Keywords (15)
 
