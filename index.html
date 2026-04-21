@@ -4,22 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HVAC Colorado Springs CO | Official 24/7 Service 2026</title>
-<meta name="description" content="Call (719) 304-5003 for 24/7 HVAC service in Colorado Springs. Licensed, insured, emergency repairs, installations, and maintenance across El Paso County.">
+<meta name="description" content="Call (719) 304-5003 for 24/7 HVAC service across El Paso County. Licensed, insured, emergency repairs, installations, and maintenance.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://coloradosprings-elite-hvac.s3.us-east-1.amazonaws.com/">
-<script src="https://cdn.tailwindcss.com"></script>
+<link rel="canonical" href="https://elitehvaccoloradosprings.com/">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 <script>
 tailwind.config = {
   theme: {
     extend: {
       colors: {
+        primary: '#FFB800',
+        accent: '#FFD700',
         obsidian: '#0A0A0B',
-        gold: '#FFB800',
-        warm: '#F4F1EA',
+        'deep-charcoal': '#1A1A1C',
+        'charcoal-glass': 'rgba(20,20,22,0.7)',
+        'paper-white': '#F4F1EA',
+        'neon-border': 'rgba(255,184,0,0.3)',
       },
       fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
         serif: ['Playfair Display', 'Georgia', 'serif'],
         mono: ['JetBrains Mono', 'monospace'],
       }
@@ -27,28 +32,174 @@ tailwind.config = {
   }
 }
 </script>
+
+<!-- Organization + HVACBusiness + FAQPage Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Colorado Springs Elite HVAC",
-  "url": "https://coloradosprings-elite-hvac.s3.us-east-1.amazonaws.com",
-  "logo": "https://coloradosprings-elite-hvac.s3.us-east-1.amazonaws.com/images/logo.png",
-  "telephone": "(719) 304-5003",
-  "description": "Official 24/7 HVAC service provider for Colorado Springs and El Paso County. Licensed, insured, emergency repairs, installations, and maintenance.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Colorado Springs",
-    "addressRegion": "CO",
-    "addressCountry": "US"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "El Paso County, Colorado"
-  },
-  "sameAs": []
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Colorado Springs Elite HVAC",
+      "url": "https://elitehvaccoloradosprings.com",
+      "logo": "https://elitehvaccoloradosprings.com/images/logo.png",
+      "telephone": "(719) 304-5003",
+      "email": "colorado_springs@thehvacshopllc.com",
+      "description": "Official 24/7 HVAC service provider for Colorado Springs and El Paso County. Licensed, insured, emergency repairs, installations, and maintenance.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1312 Valley St",
+        "addressLocality": "Colorado Springs",
+        "addressRegion": "CO",
+        "postalCode": "80915",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "El Paso County, Colorado"
+      },
+      "sameAs": []
+    },
+    {
+      "@type": "HVACBusiness",
+      "name": "Colorado Springs Elite HVAC",
+      "url": "https://elitehvaccoloradosprings.com",
+      "telephone": "(719) 304-5003",
+      "email": "colorado_springs@thehvacshopllc.com",
+      "image": "https://elitehvaccoloradosprings.com/images/hero-hvac-tech.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1312 Valley St",
+        "addressLocality": "Colorado Springs",
+        "addressRegion": "CO",
+        "postalCode": "80915",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.8339578,
+        "longitude": -104.825348
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "23:59",
+          "description": "Emergency Only"
+        }
+      ],
+      "priceRange": "$$",
+      "paymentAccepted": "Cash, Credit Card, Check",
+      "areaServed": [
+        {"@type": "City", "name": "Colorado Springs", "addressRegion": "CO"},
+        {"@type": "City", "name": "Monument", "addressRegion": "CO"},
+        {"@type": "City", "name": "Fountain", "addressRegion": "CO"},
+        {"@type": "City", "name": "Security-Widefield", "addressRegion": "CO"},
+        {"@type": "City", "name": "Manitou Springs", "addressRegion": "CO"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does HVAC repair cost in Colorado Springs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most HVAC repairs in Colorado Springs cost between $150 and $650. A diagnostic fee of $89–$129 is waived if you approve the repair. Common repairs include ignitor replacement ($150–$250), capacitor replacement ($175–$300), blower motor replacement ($350–$650), and refrigerant recharge ($250–$500). Colorado Springs Elite HVAC provides flat-rate quotes before every repair — no hourly billing and no overtime surcharges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer 24/7 emergency HVAC service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Colorado Springs Elite HVAC provides 24/7 emergency dispatch across El Paso County, 365 days a year. There are no overtime surcharges for nights, weekends, or holidays. When you call (719) 304-5003, a live dispatcher answers and routes a NATE-certified technician to your home — typically within 60–90 minutes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve Colorado Springs and all of El Paso County, including Monument, Fountain, Security-Widefield, and Manitou Springs. Within Colorado Springs, we cover every neighborhood: Briargate, Broadmoor, Old Colorado City, Powers Corridor, Northgate, Stetson Hills, Rockrimmon, Falcon, Cimarron Hills, and Cordera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a furnace installation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard furnace installation takes 4–8 hours for a direct replacement. If ductwork modifications, gas line rerouting, or electrical upgrades are needed, the job may extend to two days. Colorado Springs Elite HVAC handles all PPRBD permits and scheduling of inspections so you do not have to."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide free estimates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. All installation and replacement estimates are free with no obligation. For repairs, a diagnostic fee of $89–$129 applies and is waived if you approve the repair. Every quote is flat-rate and provided in writing before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your technicians certified?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every technician at Colorado Springs Elite HVAC holds NATE certification — the industry's most respected credential. Our team is also EPA 608 certified for refrigerant handling and trained specifically for high-altitude HVAC diagnostics at Colorado Springs' 6,035-foot elevation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does altitude affect my HVAC system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At 6,035 feet, Colorado Springs' thin air reduces combustion efficiency by approximately 24% compared to sea level. Furnaces must be derated with smaller gas orifices and adjusted air-fuel ratios. Air conditioners work harder because of lower air density and intense UV exposure. Colorado Springs Elite HVAC technicians are trained specifically for high-altitude HVAC performance tuning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What brands do you install?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We install and service all major brands including Trane, Carrier, Lennox, Rheem, Goodman, and Mitsubishi. For ductless mini-split systems, we specialize in Mitsubishi and Carrier models. Every installation includes manufacturer warranty registration and PPRBD permit processing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you pull permits for installations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Colorado Springs Elite HVAC pulls all required permits through the Pikes Peak Regional Building Department (PPRBD) for every furnace, air conditioner, and HVAC system installation. We schedule and attend all inspections. Unpermitted HVAC work can void manufacturer warranties and create liability during home sales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I service my HVAC system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Twice per year — once in spring for your air conditioner and once in fall for your furnace. In Colorado Springs, altitude stress, wildfire smoke, and extreme temperature swings make regular maintenance even more critical than at lower elevations. Our maintenance plans include priority scheduling, discounted repairs, and no overtime charges."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
+
 <style>
 body { background-color: #0A0A0B; color: #F4F1EA; }
 .glass-card {
@@ -61,236 +212,682 @@ body { background-color: #0A0A0B; color: #F4F1EA; }
   background: rgba(255,255,255,0.07);
   border-color: rgba(255,184,0,0.25);
 }
+.glass-card-light {
+  background: rgba(0,0,0,0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0,0,0,0.08);
+}
+.glass-card-light:hover {
+  background: rgba(0,0,0,0.06);
+  border-color: rgba(0,0,0,0.15);
+}
 .gold-gradient { background: linear-gradient(135deg, #FFB800, #D4A000); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .btn-gold { background: linear-gradient(135deg, #FFB800, #E5A600); color: #0A0A0B; }
 .btn-gold:hover { background: linear-gradient(135deg, #FFD040, #FFB800); }
 .hero-bg { background: linear-gradient(135deg, rgba(10,10,11,0.85), rgba(10,10,11,0.95)), url('./images/hero-hvac-tech.jpg') center/cover no-repeat; }
 @media (max-width: 768px) { .hero-bg { background: linear-gradient(135deg, rgba(10,10,11,0.9), rgba(10,10,11,0.98)), url('./images/hero-hvac-tech-mobile.jpg') center/cover no-repeat; } }
+.hud-border { position: relative; }
+.hud-border::before { content: ''; position: absolute; top: 0; left: 0; width: 24px; height: 24px; border-top: 2px solid #FFB800; border-left: 2px solid #FFB800; }
+.hud-border::after { content: ''; position: absolute; bottom: 0; right: 0; width: 24px; height: 24px; border-bottom: 2px solid #FFB800; border-right: 2px solid #FFB800; }
+.scanline { background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,184,0,0.015) 2px, rgba(255,184,0,0.015) 4px); }
+.section-transition-light { background: linear-gradient(180deg, #F4F1EA 0%, #EDE8DF 100%); }
+.section-transition-dark { background: linear-gradient(180deg, #0A0A0B 0%, #111113 100%); }
+table { border-collapse: collapse; width: 100%; }
+table th { background: #FFB800; color: #0A0A0B; font-weight: 700; text-align: left; padding: 12px 16px; }
+table td { padding: 12px 16px; border-bottom: 1px solid rgba(0,0,0,0.1); }
+table tr:nth-child(even) { background: rgba(0,0,0,0.02); }
 </style>
 </head>
-<body class="font-serif">
+<body class="font-sans scanline">
 
 <!-- Navigation -->
 <nav class="fixed top-0 left-0 right-0 z-50 glass-card border-t-0 border-l-0 border-r-0">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16 sm:h-20">
       <a href="/" class="flex items-center gap-2">
-        <span class="material-symbols-outlined text-gold text-3xl">hvac</span>
-        <span class="text-lg sm:text-xl font-bold text-warm">Colorado Springs <span class="text-gold">Elite HVAC</span></span>
+        <span class="material-symbols-outlined text-primary text-3xl">hvac</span>
+        <span class="text-lg sm:text-xl font-bold text-paper-white">Colorado Springs <span class="text-primary">Elite HVAC</span></span>
       </a>
-      <div class="hidden md:flex items-center gap-6 text-sm font-mono">
+      <div class="hidden lg:flex items-center gap-5 text-sm font-mono">
         <div class="relative group">
-          <button class="text-warm/80 hover:text-gold transition flex items-center gap-1">
-            Cities <span class="material-symbols-outlined text-base">expand_more</span>
+          <button class="text-paper-white/80 hover:text-primary transition flex items-center gap-1">
+            Services <span class="material-symbols-outlined text-base">expand_more</span>
           </button>
           <div class="absolute top-full left-0 mt-2 w-64 glass-card rounded-lg p-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-            <a href="/hvac-colorado-springs/" class="block py-2 px-3 text-warm/80 hover:text-gold hover:bg-white/5 rounded transition">Colorado Springs</a>
-            <a href="/hvac-monument/" class="block py-2 px-3 text-warm/80 hover:text-gold hover:bg-white/5 rounded transition">Monument</a>
-            <a href="/hvac-fountain/" class="block py-2 px-3 text-warm/80 hover:text-gold hover:bg-white/5 rounded transition">Fountain</a>
-            <a href="/hvac-security-widefield/" class="block py-2 px-3 text-warm/80 hover:text-gold hover:bg-white/5 rounded transition">Security-Widefield</a>
-            <a href="/hvac-manitou-springs/" class="block py-2 px-3 text-warm/80 hover:text-gold hover:bg-white/5 rounded transition">Manitou Springs</a>
+            <a href="/emergency-hvac-colorado-springs/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">Emergency HVAC</a>
+            <a href="/furnace-repair-colorado-springs/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">Furnace Repair</a>
+            <a href="/ac-repair-colorado-springs/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">AC Repair</a>
+            <a href="/commercial-hvac-colorado-springs/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">Commercial HVAC</a>
+            <a href="/furnace-installation-colorado-springs/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">Furnace Installation</a>
           </div>
         </div>
-        <a href="#services" class="text-warm/80 hover:text-gold transition">Services</a>
+        <div class="relative group">
+          <button class="text-paper-white/80 hover:text-primary transition flex items-center gap-1">
+            Service Areas <span class="material-symbols-outlined text-base">expand_more</span>
+          </button>
+          <div class="absolute top-full left-0 mt-2 w-64 glass-card rounded-lg p-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <a href="/hvac-monument/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">HVAC Monument</a>
+            <a href="/hvac-fountain/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">HVAC Fountain</a>
+            <a href="/hvac-security-widefield/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">HVAC Security-Widefield</a>
+            <a href="/hvac-manitou-springs/" class="block py-2 px-3 text-paper-white/80 hover:text-primary hover:bg-white/5 rounded transition">HVAC Manitou Springs</a>
+          </div>
+        </div>
         <a href="tel:7193045003" class="btn-gold px-4 py-2 rounded-lg font-bold flex items-center gap-2">
           <span class="material-symbols-outlined text-base">phone</span> (719) 304-5003
         </a>
       </div>
-      <!-- Mobile menu button -->
-      <button id="mobileMenuBtn" class="md:hidden text-warm p-2">
+      <button id="mobileMenuBtn" class="lg:hidden text-paper-white p-2">
         <span class="material-symbols-outlined text-3xl">menu</span>
       </button>
     </div>
   </div>
   <!-- Mobile menu -->
-  <div id="mobileMenu" class="hidden md:hidden glass-card border-t border-gold/10 px-4 pb-4">
-    <a href="/hvac-colorado-springs/" class="block py-3 text-warm/80 hover:text-gold border-b border-white/5">Colorado Springs</a>
-    <a href="/hvac-monument/" class="block py-3 text-warm/80 hover:text-gold border-b border-white/5">Monument</a>
-    <a href="/hvac-fountain/" class="block py-3 text-warm/80 hover:text-gold border-b border-white/5">Fountain</a>
-    <a href="/hvac-security-widefield/" class="block py-3 text-warm/80 hover:text-gold border-b border-white/5">Security-Widefield</a>
-    <a href="/hvac-manitou-springs/" class="block py-3 text-warm/80 hover:text-gold border-b border-white/5">Manitou Springs</a>
-    <a href="#services" class="block py-3 text-warm/80 hover:text-gold border-b border-white/5">Services</a>
-    <a href="tel:7193045003" class="block mt-2 btn-gold text-center px-4 py-3 rounded-lg font-bold">(719) 304-5003</a>
+  <div id="mobileMenu" class="hidden lg:hidden glass-card border-t border-primary/10 px-4 pb-4">
+    <p class="text-primary font-mono text-xs uppercase tracking-widest pt-3 pb-1">Services</p>
+    <a href="/emergency-hvac-colorado-springs/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">Emergency HVAC</a>
+    <a href="/furnace-repair-colorado-springs/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">Furnace Repair</a>
+    <a href="/ac-repair-colorado-springs/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">AC Repair</a>
+    <a href="/commercial-hvac-colorado-springs/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">Commercial HVAC</a>
+    <a href="/furnace-installation-colorado-springs/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">Furnace Installation</a>
+    <p class="text-primary font-mono text-xs uppercase tracking-widest pt-3 pb-1">Service Areas</p>
+    <a href="/hvac-monument/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">HVAC Monument</a>
+    <a href="/hvac-fountain/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">HVAC Fountain</a>
+    <a href="/hvac-security-widefield/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">HVAC Security-Widefield</a>
+    <a href="/hvac-manitou-springs/" class="block py-2 text-paper-white/80 hover:text-primary border-b border-white/5">HVAC Manitou Springs</a>
+    <a href="tel:7193045003" class="block mt-3 btn-gold text-center px-4 py-3 rounded-lg font-bold">(719) 304-5003</a>
   </div>
 </nav>
 
 <!-- Hero -->
 <section class="hero-bg min-h-screen flex items-center pt-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-    <div class="max-w-3xl">
-      <p class="font-mono text-gold text-sm tracking-widest uppercase mb-4">24/7 Emergency Service</p>
-      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">HVAC Colorado Springs CO</h1>
-      <p class="text-xl sm:text-2xl text-warm/70 mb-2">Colorado Springs Elite HVAC — Your Official Local Service</p>
-      <p class="text-lg text-warm/60 mb-8 max-w-2xl">Serving homeowners and businesses across El Paso County with licensed, insured HVAC repair, installation, and maintenance. When you need reliable heating and cooling, we're the official team Colorado Springs trusts.</p>
-      <div class="flex flex-col sm:flex-row gap-4">
-        <a href="tel:7193045003" class="btn-gold px-8 py-4 rounded-lg font-bold text-lg flex items-center justify-center gap-3">
-          <span class="material-symbols-outlined">phone</span> Call (719) 304-5003
-        </a>
-        <a href="#cities" class="glass-card px-8 py-4 rounded-lg font-bold text-warm hover:text-gold text-center transition">
-          Explore Cities We Serve
-        </a>
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="font-mono text-primary text-sm tracking-[0.4em] uppercase mb-4">Official 24/7 HVAC Service</p>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-6">HVAC Colorado Springs CO</h1>
+        <p class="text-xl sm:text-2xl text-paper-white/70 mb-2 font-serif">The Official HVAC Service for El Paso County</p>
+        <p class="text-lg text-paper-white/60 mb-8 max-w-2xl">Colorado Springs Elite HVAC is the official heating and cooling service provider trusted by homeowners and businesses across El Paso County. From emergency furnace repair at 2 AM to full system installations with PPRBD permits, our NATE-certified technicians deliver reliable, flat-rate HVAC service — 24 hours a day, 365 days a year. Licensed. Insured. No overtime charges.</p>
+        <div class="flex flex-col sm:flex-row gap-4 mb-8">
+          <a href="tel:7193045003" class="btn-gold px-8 py-4 rounded-lg font-bold text-lg flex items-center justify-center gap-3">
+            <span class="material-symbols-outlined">phone</span> Call (719) 304-5003
+          </a>
+          <a href="#services" class="border border-primary/40 text-primary px-8 py-4 rounded-lg font-bold text-center transition hover:bg-primary/10">
+            View All Services
+          </a>
+        </div>
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap gap-6 text-sm font-mono text-paper-white/60">
+          <span class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">workspace_premium</span> NATE Certified</span>
+          <span class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">verified</span> Licensed &amp; Insured</span>
+          <span class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">schedule</span> 24/7 Emergency</span>
+        </div>
+        <!-- Testimonial -->
+        <div class="mt-8 glass-card rounded-xl p-6 max-w-lg">
+          <p class="text-paper-white/70 italic mb-3">"Our furnace died on the coldest night in January. They were at our door in under an hour and had heat running before midnight. Honest pricing, no surprises."</p>
+          <p class="text-primary font-mono text-sm font-bold">— Sarah M., Briargate</p>
+        </div>
+      </div>
+      <div class="hidden lg:block">
+        <img src="images/hero-hvac-tech.jpg" alt="NATE-certified HVAC technician servicing a furnace in Colorado Springs" class="rounded-2xl shadow-2xl border border-primary/10 w-full h-auto">
       </div>
     </div>
   </div>
 </section>
 
-<!-- About / Intro -->
-<section class="py-20 border-t border-gold/10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-3xl mx-auto text-center">
-      <p class="font-mono text-gold text-sm tracking-widest uppercase mb-4">Trusted Since 2009</p>
-      <h2 class="text-3xl sm:text-4xl font-bold mb-6">El Paso County's Official HVAC Professionals</h2>
-      <p class="text-warm/70 text-lg mb-4">Colorado Springs Elite HVAC has been the official heating and cooling partner for families across El Paso County for over 15 years. From the foothills of Pikes Peak to the plains of Fountain, our licensed technicians deliver same-day repairs, professional installations, and preventative maintenance — 24 hours a day, 7 days a week.</p>
-      <p class="text-warm/70 text-lg">We know Colorado's high-altitude climate creates unique demands on furnaces and air conditioners. That's why every technician on our team is trained to handle the specific challenges of mountain-region HVAC systems, ensuring your home stays comfortable year-round.</p>
-    </div>
+<!-- Entity Section — HVAC Services in Colorado Springs, Colorado — DARK -->
+<section class="py-20 bg-obsidian border-t border-primary/10">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Official HVAC Provider</p>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">HVAC Services in Colorado Springs, Colorado</h2>
+    <p class="text-paper-white/70 text-lg mb-4">Colorado Springs Elite HVAC is the official full-service heating and cooling provider for Colorado Springs and all of El Paso County. At 6,035 feet above sea level, Colorado Springs presents unique challenges for HVAC equipment — thin air reduces combustion efficiency by approximately 24%, chinook winds create sudden 40-degree temperature swings, and wildfire smoke clogs filters and condenser coils during fire season. Every system we install, repair, and maintain is tuned for these high-altitude conditions.</p>
+    <p class="text-paper-white/70 text-lg mb-4">Our NATE-certified technicians handle residential and <a href="/commercial-hvac-colorado-springs/" class="text-primary hover:underline">commercial HVAC systems</a> across every neighborhood — from Briargate and Broadmoor to Old Colorado City and the Powers Corridor. We install and service all major brands: Trane, Carrier, Lennox, Rheem, Goodman, and Mitsubishi. Every installation includes PPRBD permit processing and scheduled inspections.</p>
+    <p class="text-paper-white/70 text-lg">Whether you need <a href="/emergency-hvac-colorado-springs/" class="text-primary hover:underline">emergency repair at 3 AM</a>, a <a href="/furnace-repair-colorado-springs/" class="text-primary hover:underline">furnace repair</a> before the next cold front, <a href="/ac-repair-colorado-springs/" class="text-primary hover:underline">AC repair</a> in the July heat, or a complete system replacement with financing — call <a href="tel:7193045003" class="text-primary font-bold hover:underline">(719) 304-5003</a> for a flat-rate quote.</p>
   </div>
 </section>
 
-<!-- Cities Grid -->
-<section id="cities" class="py-20 border-t border-gold/10">
+<!-- Services Grid — DARK -->
+<section id="services" class="py-20 bg-obsidian border-t border-primary/10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <p class="font-mono text-gold text-sm tracking-widest uppercase mb-4">Service Area</p>
-      <h2 class="text-3xl sm:text-4xl font-bold">Cities We Serve</h2>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Colorado Springs -->
-      <a href="/hvac-colorado-springs/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">location_city</span>
-        <h3 class="text-2xl font-bold mb-2 group-hover:text-gold transition">Colorado Springs</h3>
-        <p class="text-warm/60 text-sm">Briargate, Broadmoor, Old Colorado City, Powers Corridor & more</p>
-      </a>
-      <!-- Monument -->
-      <a href="/hvac-monument/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">terrain</span>
-        <h3 class="text-2xl font-bold mb-2 group-hover:text-gold transition">Monument</h3>
-        <p class="text-warm/60 text-sm">Forest Lakes, Jackson Creek, Promontory Pointe & more</p>
-      </a>
-      <!-- Fountain -->
-      <a href="/hvac-fountain/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">water</span>
-        <h3 class="text-2xl font-bold mb-2 group-hover:text-gold transition">Fountain</h3>
-        <p class="text-warm/60 text-sm">Countryside, Heritage, Fountain Valley & more</p>
-      </a>
-      <!-- Security-Widefield -->
-      <a href="/hvac-security-widefield/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">shield</span>
-        <h3 class="text-2xl font-bold mb-2 group-hover:text-gold transition">Security-Widefield</h3>
-        <p class="text-warm/60 text-sm">Widefield Park, Security Field House & surrounding areas</p>
-      </a>
-      <!-- Manitou Springs -->
-      <a href="/hvac-manitou-springs/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">spa</span>
-        <h3 class="text-2xl font-bold mb-2 group-hover:text-gold transition">Manitou Springs</h3>
-        <p class="text-warm/60 text-sm">Historic district, mineral springs area & surrounding neighborhoods</p>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- Services Overview -->
-<section id="services" class="py-20 border-t border-gold/10">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16">
-      <p class="font-mono text-gold text-sm tracking-widest uppercase mb-4">What We Do</p>
-      <h2 class="text-3xl sm:text-4xl font-bold">HVAC Services</h2>
+      <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">What We Do</p>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold">HVAC Installation in Colorado Springs</h2>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="glass-card rounded-2xl p-8">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">ac_unit</span>
-        <h3 class="text-xl font-bold mb-3">Air Conditioning</h3>
-        <p class="text-warm/60">AC repair, replacement, and new installation. Central air, ductless mini-splits, and heat pumps for Colorado's hot summers.</p>
+      <a href="/emergency-hvac-colorado-springs/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">emergency</span>
+        <h3 class="text-xl font-serif font-bold mb-3 group-hover:text-primary transition">Emergency HVAC Repair</h3>
+        <p class="text-paper-white/60">24/7 emergency dispatch with no overtime charges. NATE-certified technicians respond within 60–90 minutes for no-heat, no-cool, and gas emergencies.</p>
+      </a>
+      <a href="/furnace-repair-colorado-springs/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">local_fire_department</span>
+        <h3 class="text-xl font-serif font-bold mb-3 group-hover:text-primary transition">Furnace Repair &amp; Replacement</h3>
+        <p class="text-paper-white/60">Gas and electric furnace diagnostics, repair, and replacement. High-altitude derating and combustion tuning for Colorado Springs' 6,035-foot elevation.</p>
+      </a>
+      <a href="/ac-repair-colorado-springs/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">ac_unit</span>
+        <h3 class="text-xl font-serif font-bold mb-3 group-hover:text-primary transition">Air Conditioning Service</h3>
+        <p class="text-paper-white/60">AC repair, installation, and seasonal tune-ups. Central air, ductless mini-splits, and heat pumps from Trane, Carrier, Lennox, and Mitsubishi.</p>
+      </a>
+      <a href="/commercial-hvac-colorado-springs/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">business</span>
+        <h3 class="text-xl font-serif font-bold mb-3 group-hover:text-primary transition">Commercial HVAC Service</h3>
+        <p class="text-paper-white/60">Rooftop units, VRF systems, and commercial heating and cooling for offices, retail, restaurants, and warehouses across El Paso County.</p>
+      </a>
+      <a href="/furnace-installation-colorado-springs/" class="glass-card rounded-2xl p-8 transition-all duration-300 group">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">build</span>
+        <h3 class="text-xl font-serif font-bold mb-3 group-hover:text-primary transition">Full System Installation</h3>
+        <p class="text-paper-white/60">Complete HVAC system design, installation, PPRBD permits, and inspections. Manufacturer warranties registered on every install.</p>
+      </a>
+      <div class="glass-card rounded-2xl p-8 transition-all duration-300 group">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">settings</span>
+        <h3 class="text-xl font-serif font-bold mb-3">Maintenance Plans</h3>
+        <p class="text-paper-white/60">Bi-annual tune-ups, filter changes, and system inspections. Preventative maintenance extends equipment life and prevents costly breakdowns.</p>
       </div>
-      <div class="glass-card rounded-2xl p-8">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">local_fire_department</span>
-        <h3 class="text-xl font-bold mb-3">Furnace & Heating</h3>
-        <p class="text-warm/60">Gas and electric furnace repair, installation, and maintenance. Keep your home warm through freezing winter nights.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Emergency / 24/7 Section — DARK -->
+<section class="py-20 bg-obsidian border-t border-primary/10">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Around-the-Clock Coverage</p>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">24/7 HVAC Service in Colorado Springs</h2>
+    <p class="text-paper-white/70 text-lg mb-4">Colorado Springs experiences some of the most extreme temperature swings in the continental United States. Chinook winds raise temperatures 40–50°F in a single afternoon, then plunge back below zero overnight. A January blizzard can push wind chills to -20°F while July afternoons hit 95°F. These rapid shifts stress HVAC equipment beyond normal tolerances — and failures happen at the worst possible times.</p>
+    <p class="text-paper-white/70 text-lg mb-4">That is why Colorado Springs Elite HVAC operates a 24/7 dispatch center, 365 days a year. When you call <a href="tel:7193045003" class="text-primary font-bold hover:underline">(719) 304-5003</a>, a live dispatcher answers — not an answering machine, not a call center in another state. Our NATE-certified technicians carry the 50 most common failure parts on every truck, resolving most emergencies in a single visit.</p>
+    <p class="text-paper-white/70 text-lg mb-6">No overtime surcharges apply — the same flat-rate pricing applies at 3 PM or 3 AM, including nights, weekends, and holidays. For full details on our emergency protocols, visit our <a href="/emergency-hvac-colorado-springs/" class="text-primary hover:underline">Emergency HVAC Colorado Springs</a> page.</p>
+
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">Emergency HVAC Repair in Colorado Springs</h2>
+    <p class="text-paper-white/70 text-lg mb-4">When an HVAC system fails in Colorado Springs, our <a href="/emergency-hvac-colorado-springs/" class="text-primary hover:underline">emergency HVAC repair</a> process is straightforward: call <a href="tel:7193045003" class="text-primary font-bold hover:underline">(719) 304-5003</a>, our dispatcher logs the emergency, and a technician is routed to your home within 60–90 minutes. No voicemail tree, no callback queue.</p>
+    <p class="text-paper-white/70 text-lg">Priority dispatch is given to no-heat calls when temperatures drop below 32°F, homes with elderly residents or infants, and any situation involving a gas smell or carbon monoxide detector activation. Every emergency repair begins with a flat-rate written quote — you approve the price before any work begins.</p>
+  </div>
+</section>
+
+<!-- Pricing Section — LIGHT -->
+<section class="py-20 bg-paper-white text-deep-charcoal">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Transparent Pricing</p>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">Flat-Rate HVAC Quotes in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-4">Every repair and installation from Colorado Springs Elite HVAC comes with a flat-rate written quote before work begins. No hourly billing, no hidden fees, and no overtime surcharges. The price you approve is the price you pay — whether it is 2 PM on a Tuesday or 2 AM on Christmas morning.</p>
+
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mt-12 mb-6">Affordable Furnace Repair in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-6">Colorado Springs' altitude and extreme winters put exceptional stress on furnaces. Our <a href="/furnace-repair-colorado-springs/" class="text-primary hover:underline">furnace repair</a> pricing is flat-rate and competitive — the diagnostic fee is waived when you approve the repair. Below are our most common repair costs.</p>
+
+    <!-- Repair Pricing Table -->
+    <div class="overflow-x-auto rounded-xl border border-black/10 mb-12">
+      <table>
+        <thead>
+          <tr>
+            <th class="rounded-tl-xl">Repair Type</th>
+            <th class="rounded-tr-xl">Price Range</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="font-semibold">Diagnostic Fee</td>
+            <td>$89 – $129 (waived with repair)</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Ignitor Replacement</td>
+            <td>$150 – $250</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Capacitor Replacement</td>
+            <td>$175 – $300</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Blower Motor Replacement</td>
+            <td>$350 – $650</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Refrigerant Recharge</td>
+            <td>$250 – $500</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Heat Exchanger Repair</td>
+            <td>$800 – $2,500</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-4">AC Installation Cost in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-4">Air conditioning installation in Colorado Springs requires careful sizing for the 6,035-foot elevation. Lower air density means standard BTU ratings underperform — our technicians perform Manual J load calculations adjusted for altitude to ensure correct sizing. All installations include PPRBD permits, inspections, and manufacturer warranty registration.</p>
+
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mt-8 mb-4">Furnace Replacement Cost in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-6">Furnace replacement costs in Colorado Springs depend on the efficiency rating, fuel type, and ductwork modifications needed. High-efficiency 96% AFUE furnaces cost more upfront but save significantly on gas bills at our altitude. Below are typical installation price ranges including permits and labor.</p>
+
+    <!-- Installation Pricing Table -->
+    <div class="overflow-x-auto rounded-xl border border-black/10">
+      <table>
+        <thead>
+          <tr>
+            <th class="rounded-tl-xl">System Type</th>
+            <th class="rounded-tr-xl">Price Range (Installed)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="font-semibold">80% AFUE Gas Furnace</td>
+            <td>$2,800 – $4,200</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">96% AFUE Gas Furnace</td>
+            <td>$3,800 – $5,500</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Central Air Conditioner (2–5 ton)</td>
+            <td>$3,500 – $6,500</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Ductless Mini-Split System</td>
+            <td>$3,000 – $5,000</td>
+          </tr>
+          <tr>
+            <td class="font-semibold">Full System (Furnace + AC)</td>
+            <td>$6,500 – $12,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us — DARK -->
+<section class="py-20 bg-obsidian border-t border-primary/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Why Homeowners Choose Us</p>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold">Best HVAC Company in Colorado Springs</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="glass-card rounded-2xl p-8 hud-border">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">workspace_premium</span>
+        <h3 class="text-xl font-serif font-bold mb-3">NATE-Certified Technicians</h3>
+        <p class="text-paper-white/60">Every technician holds NATE certification and EPA 608 credentials. We are trained specifically for high-altitude HVAC diagnostics at 6,035 feet.</p>
       </div>
-      <div class="glass-card rounded-2xl p-8">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">emergency</span>
-        <h3 class="text-xl font-bold mb-3">Emergency Repair</h3>
-        <p class="text-warm/60">24/7 emergency HVAC service. No overtime charges, no surprises. We show up when you need us most.</p>
+      <div class="glass-card rounded-2xl p-8 hud-border">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">money_off</span>
+        <h3 class="text-xl font-serif font-bold mb-3">Flat-Rate, No Overtime</h3>
+        <p class="text-paper-white/60">Written quotes before every repair. The same price applies at 3 PM or 3 AM — no overtime surcharges on nights, weekends, or holidays.</p>
       </div>
-      <div class="glass-card rounded-2xl p-8">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">build</span>
-        <h3 class="text-xl font-bold mb-3">Installation</h3>
-        <p class="text-warm/60">Professional HVAC system installation with permits, inspections, and manufacturer warranties. Done right the first time.</p>
+      <div class="glass-card rounded-2xl p-8 hud-border">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">schedule</span>
+        <h3 class="text-xl font-serif font-bold mb-3">24/7 Live Dispatch</h3>
+        <p class="text-paper-white/60">A live dispatcher answers every call — no voicemail, no callback queue. Emergency technicians respond within 60–90 minutes across El Paso County.</p>
       </div>
-      <div class="glass-card rounded-2xl p-8">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">settings</span>
-        <h3 class="text-xl font-bold mb-3">Maintenance Plans</h3>
-        <p class="text-warm/60">Seasonal tune-ups, filter changes, and system checks. Prevent breakdowns before they happen with our maintenance plans.</p>
+      <div class="glass-card rounded-2xl p-8 hud-border">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">description</span>
+        <h3 class="text-xl font-serif font-bold mb-3">PPRBD Permits Included</h3>
+        <p class="text-paper-white/60">Every installation includes Pikes Peak Regional Building Department permit processing and inspection scheduling. Fully code-compliant work.</p>
       </div>
-      <div class="glass-card rounded-2xl p-8">
-        <span class="material-symbols-outlined text-gold text-4xl mb-4 block">business</span>
-        <h3 class="text-xl font-bold mb-3">Commercial HVAC</h3>
-        <p class="text-warm/60">Commercial heating and cooling for offices, retail, restaurants, and warehouses across El Paso County.</p>
+      <div class="glass-card rounded-2xl p-8 hud-border">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">verified</span>
+        <h3 class="text-xl font-serif font-bold mb-3">Licensed &amp; Insured</h3>
+        <p class="text-paper-white/60">Fully licensed in the State of Colorado and carrying comprehensive liability insurance. Your home and property are protected on every service call.</p>
+      </div>
+      <div class="glass-card rounded-2xl p-8 hud-border">
+        <span class="material-symbols-outlined text-primary text-4xl mb-4 block">handshake</span>
+        <h3 class="text-xl font-serif font-bold mb-3">All Major Brands</h3>
+        <p class="text-paper-white/60">We install and service Trane, Carrier, Lennox, Rheem, Goodman, and Mitsubishi. Factory-trained on every major residential and commercial platform.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AC & Furnace Repair — LIGHT -->
+<section class="py-20 bg-paper-white text-deep-charcoal">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Heating &amp; Cooling Repair</p>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">Air Conditioning Service in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-4">Colorado Springs summers bring consistent 85–95°F highs from June through August, and the intense UV exposure at 6,035 feet degrades outdoor condenser components faster than at lower elevations. Our <a href="/ac-repair-colorado-springs/" class="text-primary hover:underline">air conditioning service</a> includes refrigerant pressure checks calibrated for altitude, condenser coil cleaning (critical during wildfire smoke season), capacitor and contactor testing, and thermostat calibration. We service all brands including Trane, Carrier, Lennox, Rheem, Goodman, and Mitsubishi ductless systems.</p>
+
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mt-12 mb-6">AC Repair in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-4">When your air conditioner stops cooling, call <a href="tel:7193045003" class="text-primary font-bold hover:underline">(719) 304-5003</a> for same-day <a href="/ac-repair-colorado-springs/" class="text-primary hover:underline">AC repair in Colorado Springs</a>. Our technicians diagnose the issue, provide a flat-rate quote, and complete the repair — usually in a single visit. Common AC repairs include capacitor replacement, refrigerant recharge, compressor diagnostics, and condenser fan motor replacement. No overtime charges apply, even on weekends and holidays.</p>
+
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mt-12 mb-6">Furnace Repair in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-4">A failed furnace in Colorado Springs is not an inconvenience — it is a safety hazard. At our altitude, homes lose heat rapidly once the furnace stops running, and pipes can freeze within hours during sub-zero nights. Our <a href="/furnace-repair-colorado-springs/" class="text-primary hover:underline">furnace repair service</a> covers ignitor failures, flame sensor cleaning, gas valve diagnostics, blower motor replacement, heat exchanger inspections, and thermocouple testing. Every repair is flat-rate with the diagnostic fee waived when you approve the work.</p>
+  </div>
+</section>
+
+<!-- Maintenance + Licensed Contractor — DARK -->
+<section class="py-20 bg-obsidian border-t border-primary/10">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Preventative Care</p>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">HVAC Maintenance in Colorado Springs</h2>
+    <p class="text-paper-white/70 text-lg mb-4">Twice-yearly maintenance is not optional in Colorado Springs — it is essential. The combination of 6,035-foot altitude, extreme temperature swings, chinook wind dust, and wildfire smoke creates accelerated wear on HVAC components. Our maintenance plans include spring AC tune-ups and fall furnace inspections, filter replacements, refrigerant pressure checks, combustion analysis, and electrical connection tightening.</p>
+    <p class="text-paper-white/70 text-lg mb-4">Maintenance plan members receive priority scheduling, 15% discount on all repairs, no overtime charges, and no diagnostic fees. A well-maintained system lasts 15–20 years; a neglected one fails in 8–10. Call <a href="tel:7193045003" class="text-primary font-bold hover:underline">(719) 304-5003</a> to enroll.</p>
+
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mt-16 mb-6">Licensed HVAC Contractor in Colorado Springs</h2>
+    <p class="text-paper-white/70 text-lg mb-4">Colorado Springs Elite HVAC is a fully licensed HVAC contractor in the State of Colorado, operating under all Pikes Peak Regional Building Department (PPRBD) requirements. Every installation we perform includes proper permitting, code-compliant work, and scheduled inspections. Our technicians hold NATE certification and EPA 608 credentials for refrigerant handling.</p>
+    <p class="text-paper-white/70 text-lg">Hiring an unlicensed contractor can void manufacturer warranties, create code violations that surface during home inspections, and expose you to liability for property damage or injuries. Colorado Springs Elite HVAC carries comprehensive general liability insurance and workers' compensation coverage on every job.</p>
+  </div>
+</section>
+
+<!-- Commercial HVAC — LIGHT -->
+<section class="py-20 bg-paper-white text-deep-charcoal">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Business Solutions</p>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">Commercial HVAC Service in Colorado Springs</h2>
+    <p class="text-deep-charcoal/70 text-lg mb-4">Colorado Springs Elite HVAC serves businesses across El Paso County with <a href="/commercial-hvac-colorado-springs/" class="text-primary hover:underline">commercial HVAC service</a> designed for Colorado's high-altitude climate. We install, repair, and maintain rooftop units (RTUs), variable refrigerant flow (VRF) systems, split systems, and packaged units for offices, retail spaces, restaurants, medical facilities, and warehouses.</p>
+    <p class="text-deep-charcoal/70 text-lg">Commercial systems at 6,035 feet require altitude-specific commissioning and derated gas orifices. We handle all PPRBD commercial permits and provide 24/7 emergency service to minimize business downtime. Call <a href="tel:7193045003" class="text-primary font-bold hover:underline">(719) 304-5003</a> for a free commercial estimate.</p>
+  </div>
+</section>
+
+<!-- Neighborhoods — DARK -->
+<section class="py-20 bg-obsidian border-t border-primary/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Colorado Springs Coverage</p>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold">Neighborhoods We Serve</h2>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Briargate</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Broadmoor</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Old Colorado City</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Powers Corridor</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Northgate</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Stetson Hills</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Rockrimmon</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Falcon</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Cimarron Hills</p>
+      </div>
+      <div class="glass-card rounded-xl p-4 text-center">
+        <span class="material-symbols-outlined text-primary text-2xl mb-2 block">location_on</span>
+        <p class="font-serif font-bold text-sm">Cordera</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Landmarks — LIGHT -->
+<section class="py-20 bg-paper-white text-deep-charcoal">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Serving Iconic Locations</p>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold">HVAC Service Across Colorado Springs Landmarks</h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+      <div class="glass-card-light rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-3xl mb-3 block">landscape</span>
+        <h3 class="font-serif font-bold mb-1">Garden of the Gods</h3>
+        <p class="text-deep-charcoal/60 text-sm">Surrounding residential areas</p>
+      </div>
+      <div class="glass-card-light rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-3xl mb-3 block">military_tech</span>
+        <h3 class="font-serif font-bold mb-1">USAFA</h3>
+        <p class="text-deep-charcoal/60 text-sm">Academy &amp; Northgate corridor</p>
+      </div>
+      <div class="glass-card-light rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-3xl mb-3 block">terrain</span>
+        <h3 class="font-serif font-bold mb-1">Pikes Peak</h3>
+        <p class="text-deep-charcoal/60 text-sm">Westside &amp; Cascade areas</p>
+      </div>
+      <div class="glass-card-light rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-3xl mb-3 block">sports_gymnastics</span>
+        <h3 class="font-serif font-bold mb-1">Olympic Training Center</h3>
+        <p class="text-deep-charcoal/60 text-sm">Downtown &amp; southeast zones</p>
+      </div>
+      <div class="glass-card-light rounded-xl p-6 text-center">
+        <span class="material-symbols-outlined text-primary text-3xl mb-3 block">hotel</span>
+        <h3 class="font-serif font-bold mb-1">Broadmoor Hotel</h3>
+        <p class="text-deep-charcoal/60 text-sm">Broadmoor &amp; Cheyenne areas</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PPRBD Permits — DARK -->
+<section class="py-20 bg-obsidian border-t border-primary/10">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Code Compliance</p>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-6">PPRBD Permits &amp; Inspections</h2>
+    <p class="text-paper-white/70 text-lg mb-4">Every HVAC installation in Colorado Springs requires a permit from the Pikes Peak Regional Building Department (PPRBD). This is not optional — it is Colorado law. Unpermitted HVAC work can void manufacturer warranties, create code violations that surface during home inspections, and expose homeowners to liability.</p>
+    <p class="text-paper-white/70 text-lg mb-4">Colorado Springs Elite HVAC handles the entire permit process: we submit the application, schedule the inspection, and ensure every installation meets current mechanical code requirements. Our technicians are trained on PPRBD-specific requirements including high-altitude gas appliance derating, combustion air calculations, and venting specifications for Colorado Springs' 6,035-foot elevation.</p>
+    <p class="text-paper-white/70 text-lg">When you hire Colorado Springs Elite HVAC, you receive a code-compliant installation with proper documentation — no shortcuts, no risk to your warranty or your home's resale value.</p>
+  </div>
+</section>
+
+<!-- FAQ Section — LIGHT -->
+<section id="faq" class="py-20 bg-paper-white text-deep-charcoal">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <p class="font-mono text-primary text-xs tracking-[0.4em] uppercase mb-4">Common Questions</p>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold">Frequently Asked Questions</h2>
+    </div>
+    <div class="space-y-6">
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">How much does HVAC repair cost in Colorado Springs?</h3>
+        <p class="text-deep-charcoal/70">Most HVAC repairs cost between $150 and $650. A diagnostic fee of $89–$129 is waived if you approve the repair. Common repairs include ignitor replacement ($150–$250), capacitor replacement ($175–$300), blower motor replacement ($350–$650), and refrigerant recharge ($250–$500). Colorado Springs Elite HVAC provides flat-rate quotes before every repair — no hourly billing and no overtime surcharges.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">Do you offer 24/7 emergency HVAC service?</h3>
+        <p class="text-deep-charcoal/70">Yes. Colorado Springs Elite HVAC provides 24/7 emergency dispatch across El Paso County, 365 days a year. There are no overtime surcharges for nights, weekends, or holidays. When you call <a href="tel:7193045003" class="text-primary font-bold">(719) 304-5003</a>, a live dispatcher answers and routes a NATE-certified technician to your home — typically within 60–90 minutes.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">What areas do you serve?</h3>
+        <p class="text-deep-charcoal/70">We serve Colorado Springs and all of El Paso County, including <a href="/hvac-monument/" class="text-primary hover:underline">Monument</a>, <a href="/hvac-fountain/" class="text-primary hover:underline">Fountain</a>, <a href="/hvac-security-widefield/" class="text-primary hover:underline">Security-Widefield</a>, and <a href="/hvac-manitou-springs/" class="text-primary hover:underline">Manitou Springs</a>. Within Colorado Springs, we cover every neighborhood: Briargate, Broadmoor, Old Colorado City, Powers Corridor, Northgate, Stetson Hills, Rockrimmon, Falcon, Cimarron Hills, and Cordera.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">How long does a furnace installation take?</h3>
+        <p class="text-deep-charcoal/70">A standard furnace installation takes 4–8 hours for a direct replacement. If ductwork modifications, gas line rerouting, or electrical upgrades are needed, the job may extend to two days. Colorado Springs Elite HVAC handles all PPRBD permits and scheduling of inspections so you do not have to.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">Do you provide free estimates?</h3>
+        <p class="text-deep-charcoal/70">Yes. All installation and replacement estimates are free with no obligation. For repairs, a diagnostic fee of $89–$129 applies and is waived if you approve the repair. Every quote is flat-rate and provided in writing before work begins.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">Are your technicians certified?</h3>
+        <p class="text-deep-charcoal/70">Yes. Every technician at Colorado Springs Elite HVAC holds NATE certification — the industry's most respected credential. Our team is also EPA 608 certified for refrigerant handling and trained specifically for high-altitude HVAC diagnostics at Colorado Springs' 6,035-foot elevation.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">How does altitude affect my HVAC system?</h3>
+        <p class="text-deep-charcoal/70">At 6,035 feet, Colorado Springs' thin air reduces combustion efficiency by approximately 24% compared to sea level. Furnaces must be derated with smaller gas orifices and adjusted air-fuel ratios. Air conditioners work harder because of lower air density and intense UV exposure. Colorado Springs Elite HVAC technicians are trained specifically for high-altitude HVAC performance tuning.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">What brands do you install?</h3>
+        <p class="text-deep-charcoal/70">We install and service all major brands including Trane, Carrier, Lennox, Rheem, Goodman, and Mitsubishi. For ductless mini-split systems, we specialize in Mitsubishi and Carrier models. Every installation includes manufacturer warranty registration and PPRBD permit processing.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">Do you pull permits for installations?</h3>
+        <p class="text-deep-charcoal/70">Yes. Colorado Springs Elite HVAC pulls all required permits through the Pikes Peak Regional Building Department (PPRBD) for every furnace, air conditioner, and HVAC system installation. We schedule and attend all inspections. Unpermitted HVAC work can void manufacturer warranties and create liability during home sales.</p>
+      </div>
+
+      <div class="glass-card-light rounded-xl p-6">
+        <h3 class="text-lg font-serif font-bold mb-3">How often should I service my HVAC system?</h3>
+        <p class="text-deep-charcoal/70">Twice per year — once in spring for your air conditioner and once in fall for your furnace. In Colorado Springs, altitude stress, wildfire smoke, and extreme temperature swings make regular maintenance even more critical than at lower elevations. Our maintenance plans include priority scheduling, discounted repairs, and no overtime charges.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CTA Band -->
-<section class="py-16 border-t border-gold/10" style="background: linear-gradient(135deg, rgba(255,184,0,0.05), rgba(255,184,0,0.02));">
+<section class="py-16 border-t border-primary/10" style="background: linear-gradient(135deg, rgba(255,184,0,0.08), rgba(255,184,0,0.02));">
   <div class="max-w-4xl mx-auto px-4 text-center">
-    <h2 class="text-3xl sm:text-4xl font-bold mb-4">Need HVAC Service Now?</h2>
-    <p class="text-warm/70 text-lg mb-8">Our licensed technicians are available 24/7 across El Paso County. Call now for a free estimate.</p>
-    <a href="tel:7193045003" class="btn-gold px-10 py-5 rounded-lg font-bold text-xl inline-flex items-center gap-3">
-      <span class="material-symbols-outlined">phone</span> (719) 304-5003
-    </a>
+    <h2 class="text-3xl sm:text-4xl font-serif font-bold mb-4">Ready for Reliable HVAC Service?</h2>
+    <p class="text-paper-white/70 text-lg mb-8">Our NATE-certified technicians are available 24/7 across Colorado Springs and El Paso County. Call now for a free estimate — flat-rate quotes on every job.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="tel:7193045003" class="btn-gold px-10 py-5 rounded-lg font-bold text-xl inline-flex items-center gap-3">
+        <span class="material-symbols-outlined">phone</span> (719) 304-5003
+      </a>
+      <a href="mailto:colorado_springs@thehvacshopllc.com" class="border border-primary/40 text-primary px-10 py-5 rounded-lg font-bold text-xl inline-flex items-center gap-3 hover:bg-primary/10 transition">
+        <span class="material-symbols-outlined">mail</span> Email Us
+      </a>
+    </div>
   </div>
 </section>
 
 <!-- Footer -->
-<footer class="border-t border-gold/10 py-16">
+<footer class="bg-obsidian border-t border-primary/10 py-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-      <!-- NAP -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+      <!-- Column 1: Logo + Description -->
       <div>
         <div class="flex items-center gap-2 mb-4">
-          <span class="material-symbols-outlined text-gold text-2xl">hvac</span>
-          <span class="font-bold text-warm">Colorado Springs Elite HVAC</span>
+          <span class="material-symbols-outlined text-primary text-2xl">hvac</span>
+          <span class="font-bold text-paper-white">Colorado Springs Elite HVAC</span>
         </div>
-        <p class="text-warm/60 mb-1">Colorado Springs, CO 80903</p>
-        <p class="text-warm/60 mb-1">El Paso County</p>
-        <a href="tel:7193045003" class="text-gold font-bold text-lg block mt-2">(719) 304-5003</a>
-        <div class="mt-4 text-warm/50 text-sm">
+        <p class="text-paper-white/60 text-sm mb-4">The official HVAC service provider for Colorado Springs and El Paso County. Licensed, insured, and NATE-certified. Serving residential and commercial customers with 24/7 emergency dispatch.</p>
+        <a href="tel:7193045003" class="text-primary font-bold text-lg block">(719) 304-5003</a>
+        <a href="mailto:colorado_springs@thehvacshopllc.com" class="text-paper-white/50 text-sm hover:text-primary transition block mt-1">colorado_springs@thehvacshopllc.com</a>
+        <p class="text-paper-white/60 text-sm mt-2">1312 Valley St</p>
+        <p class="text-paper-white/60 text-sm">Colorado Springs, CO 80915</p>
+        <div class="mt-4 text-paper-white/50 text-sm">
           <p>Mon–Fri: 7:00 AM – 8:00 PM</p>
           <p>Sat: 8:00 AM – 6:00 PM</p>
           <p>Sun: Emergency Only</p>
           <p>24/7 Emergency Service Available</p>
         </div>
       </div>
-      <!-- Cities -->
+      <!-- Column 2: City Links -->
       <div>
-        <h3 class="font-bold text-gold mb-4">Cities We Serve</h3>
-        <a href="/hvac-colorado-springs/" class="block text-warm/60 hover:text-gold transition mb-2">Colorado Springs</a>
-        <a href="/hvac-monument/" class="block text-warm/60 hover:text-gold transition mb-2">Monument</a>
-        <a href="/hvac-fountain/" class="block text-warm/60 hover:text-gold transition mb-2">Fountain</a>
-        <a href="/hvac-security-widefield/" class="block text-warm/60 hover:text-gold transition mb-2">Security-Widefield</a>
-        <a href="/hvac-manitou-springs/" class="block text-warm/60 hover:text-gold transition mb-2">Manitou Springs</a>
+        <h3 class="font-bold text-primary mb-4 font-mono text-sm uppercase tracking-wider">Service Areas</h3>
+        <a href="/hvac-monument/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">HVAC Monument</a>
+        <a href="/hvac-fountain/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">HVAC Fountain</a>
+        <a href="/hvac-security-widefield/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">HVAC Security-Widefield</a>
+        <a href="/hvac-manitou-springs/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">HVAC Manitou Springs</a>
       </div>
-      <!-- Services -->
+      <!-- Column 3: Service Links -->
       <div>
-        <h3 class="font-bold text-gold mb-4">Services</h3>
-        <p class="text-warm/60 mb-2">Air Conditioning Repair</p>
-        <p class="text-warm/60 mb-2">Furnace Repair & Installation</p>
-        <p class="text-warm/60 mb-2">Emergency HVAC Service</p>
-        <p class="text-warm/60 mb-2">HVAC Installation</p>
-        <p class="text-warm/60 mb-2">Maintenance Plans</p>
-        <p class="text-warm/60 mb-2">Commercial HVAC</p>
+        <h3 class="font-bold text-primary mb-4 font-mono text-sm uppercase tracking-wider">Services</h3>
+        <a href="/emergency-hvac-colorado-springs/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">Emergency HVAC</a>
+        <a href="/furnace-repair-colorado-springs/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">Furnace Repair</a>
+        <a href="/ac-repair-colorado-springs/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">AC Repair</a>
+        <a href="/commercial-hvac-colorado-springs/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">Commercial HVAC</a>
+        <a href="/furnace-installation-colorado-springs/" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">Furnace Installation</a>
+      </div>
+      <!-- Column 4: Contact Info -->
+      <div>
+        <h3 class="font-bold text-primary mb-4 font-mono text-sm uppercase tracking-wider">Company</h3>
+        <button onclick="document.getElementById('privacyModal').classList.remove('hidden')" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">Privacy Policy</button>
+        <button onclick="document.getElementById('termsModal').classList.remove('hidden')" class="block text-paper-white/60 hover:text-primary transition mb-2 text-sm">Terms of Service</button>
       </div>
     </div>
-    <div class="border-t border-gold/10 pt-8 text-center text-warm/40 text-sm">
-      <p>&copy; 2026 Colorado Springs Elite HVAC. All rights reserved. Licensed & Insured.</p>
+    <div class="border-t border-primary/10 pt-8 text-center text-paper-white/40 text-sm">
+      <p>&copy; 2026 Colorado Springs Elite HVAC. All rights reserved. Licensed &amp; Insured.</p>
     </div>
   </div>
 </footer>
 
+<!-- Privacy Modal -->
+<div id="privacyModal" class="hidden fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4">
+  <div class="bg-obsidian border border-primary/20 rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-8">
+    <div class="flex justify-between items-center mb-6">
+      <h2 class="text-2xl font-serif font-bold">Privacy Policy</h2>
+      <button onclick="document.getElementById('privacyModal').classList.add('hidden')" class="text-paper-white/60 hover:text-primary">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <div class="text-paper-white/70 text-sm space-y-4">
+      <p>Colorado Springs Elite HVAC respects your privacy. We collect only the information necessary to provide HVAC services: name, address, phone number, and email. We do not sell or share your personal data with third parties for marketing purposes.</p>
+      <p>Phone calls may be recorded for quality assurance and training purposes. By calling our dispatch line, you consent to call recording.</p>
+      <p>This website uses cookies for analytics and to improve your experience. You may disable cookies in your browser settings.</p>
+      <p>For questions about our privacy practices, contact us at colorado_springs@thehvacshopllc.com or call (719) 304-5003.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Terms Modal -->
+<div id="termsModal" class="hidden fixed inset-0 z-[100] flex items-center justify-center bg-black/80 p-4">
+  <div class="bg-obsidian border border-primary/20 rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-y-auto p-8">
+    <div class="flex justify-between items-center mb-6">
+      <h2 class="text-2xl font-serif font-bold">Terms of Service</h2>
+      <button onclick="document.getElementById('termsModal').classList.add('hidden')" class="text-paper-white/60 hover:text-primary">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+    <div class="text-paper-white/70 text-sm space-y-4">
+      <p>By using Colorado Springs Elite HVAC services, you agree to these terms. All service quotes are valid for 30 days from the date of issue. Payment is due upon completion of service unless other arrangements are made in writing.</p>
+      <p>Our workmanship warranty covers labor for 1 year from the date of service. Manufacturer warranties on parts vary by brand and component. Warranty claims must be reported within 48 hours of discovery.</p>
+      <p>Colorado Springs Elite HVAC is licensed and insured in the State of Colorado. We comply with all Pikes Peak Regional Building Department (PPRBD) requirements for permits and inspections.</p>
+      <p>For questions about our terms, contact us at colorado_springs@thehvacshopllc.com or call (719) 304-5003.</p>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript -->
 <script>
-document.getElementById('mobileMenuBtn').addEventListener('click', function() {
-  document.getElementById('mobileMenu').classList.toggle('hidden');
+// Mobile menu toggle
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+const menuIcon = mobileMenuBtn.querySelector('.material-symbols-outlined');
+
+mobileMenuBtn.addEventListener('click', () => {
+  mobileMenu.classList.toggle('hidden');
+  menuIcon.textContent = mobileMenu.classList.contains('hidden') ? 'menu' : 'close';
+});
+
+// Close mobile menu on resize
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 1024) {
+    mobileMenu.classList.add('hidden');
+    menuIcon.textContent = 'menu';
+  }
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// Close modals on backdrop click
+document.querySelectorAll('[id$="Modal"]').forEach(modal => {
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.classList.add('hidden');
+    }
+  });
+});
+
+// Close modals on Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('[id$="Modal"]').forEach(modal => {
+      modal.classList.add('hidden');
+    });
+  }
 });
 </script>
+
 </body>
 </html>
